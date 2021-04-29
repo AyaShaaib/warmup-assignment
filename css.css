@@ -1,0 +1,133 @@
+body{
+	background-color: #f6f6f8;
+	color: #000000;
+	font-family: "Gill Sans", sans-serif;
+    font-size: 15px;
+    margin:0;
+    line-height: normal;
+    padding: 2%;
+}
+
+.container{
+	width:25%;
+	margin:auto;
+    overflow:hidden;
+}
+
+h4,p{
+    padding: 0px;
+    margin:0px;
+    display: inline;
+}
+
+#title{
+    text-align: center;
+    /*animation-name: title;
+    animation-duration: 2s;
+    animation-iteration-count: 3;
+    animation-direction: alternate;
+    animation-timing-function: linear;*/
+    animation: title 2s 3 alternate linear;
+}
+
+
+@keyframes title{
+    0%{color:#2bab78;text-align: left;}
+    50%{color:#983831;text-align: center;}
+    100%{color:#2bab78;text-align: right;}
+}
+
+#balance{
+    padding-top: 15px;
+}
+
+#balance p{
+    font: bold 20px cursive;
+}
+
+#box{
+    height:80px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+    padding-top: 5px;
+    margin-top: 20px;
+}
+
+#box #income{
+    float:left;
+    width:50%;
+    padding-top: 20px;
+    border-right: 1px solid #ccc;
+}
+
+#box #income p{
+    font-family: cursive;
+    color:#2bab78;
+    font-weight: bold;
+}
+
+#box #expence{
+    float:right;
+    width:45%;
+    padding-top: 20px;
+}
+
+#box #expence p{
+    font-family: cursive;
+    color:#983831;
+    font-weight: bold;
+}
+
+
+#history, #newTransaction{
+    padding-top: 30px;
+}
+
+#history #oldTransactions p{
+    display:block;
+    font-style: italic;
+    line-height: 1.6em;
+}
+
+form{
+    padding-top:20px;
+}
+
+label{
+    font-weight: bold;
+}
+
+input[type=text],[type=number]{
+    width:100%;
+    padding: 8px 15px;
+    margin:8px 0px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 1px;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+input[type=submit]{
+    width:100%;
+    padding: 10px 20px;
+    margin:8px 0px;
+    background-color: #967efa;
+    color:#ffffff;
+    border:none;
+    border-radius:4px;
+}
+
+input[type=submit]:hover{
+    background-color: #7A4988;
+}
+
+@media(max-width:650px){
+    .container{
+        width:100%;
+    }
+}
+
+
