@@ -91,16 +91,6 @@ h4,p{
     line-height: 1.6em;
 }
 
-#oldTransactions p{
-    width: 95%;
-    float:left;
-}
-
-#oldTransactions img{
-    width:5%;
-    float: right;
-}
-
 form{
     padding-top:20px;
 }
