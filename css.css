@@ -91,6 +91,16 @@ h4,p{
     line-height: 1.6em;
 }
 
+#oldTransactions p{
+    width: 95%;
+    float:left;
+}
+
+#oldTransactions img{
+    width:5%;
+    float: right;
+}
+
 form{
     padding-top:20px;
 }
@@ -99,7 +109,7 @@ label{
     font-weight: bold;
 }
 
-input[type=text],[type=number]{
+input[type=text], [type=number]{
     width:100%;
     padding: 8px 15px;
     margin:8px 0px;
@@ -129,5 +139,6 @@ input[type=submit]:hover{
         width:100%;
     }
 }
+
 
 
